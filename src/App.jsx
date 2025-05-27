@@ -64,12 +64,12 @@ function App() {
         className={` flex justify-center items-center relative h-screen  w-full  bg-cover  bg-no-repeat `}
         style={{ backgroundImage: `url(${bgIMage})` }}
       >
-        <form className="box-border relative w-full p-4 m-5 text-white border border-2 border-white rounded-lg backdrop-blur-sm min-h-1/3 lg:w-1/3">
+        <form className="box-border relative w-full p-4 text-white border border-2 border-white rounded-lg txt-white m- backdrop-blur-sm min-h-1/3 lg:w-1/3">
           <h1 className="p-4 text-2xl font-semibold text-center font-">
             Currency Convorter App
           </h1>
 
-          <div className="flex items-center justify-between p-2 mb-6 text-black bg-white rounded-lg">
+          <div className="flex items-center justify-between p-2 mb-6 text-black bg-white rounded-lg ">
             <div className="left flex flex-col gap-2.5 ">
               <label htmlFor="from" className="text-lg text-gray-500">
                 From:
@@ -83,7 +83,7 @@ function App() {
                 value={inputValue && inputValue}
                 id="from"
                 placeholder="Enter Amount"
-                className="text-2xl border-none outline-none "
+                className="text-2xl border-none outline-none w-[90%]"
               />
             </div>
             <div className="right flex flex-col gap-2.5">
@@ -116,7 +116,7 @@ function App() {
                 disabled
                 id="from"
                 placeholder="Get here your amount"
-                className="text-2xl border-none outline-none "
+                className="text-2xl border-none outline-none w-[90%]"
               />
             </div>
             <div className="right flex flex-col gap-2.5">
